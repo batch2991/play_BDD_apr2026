@@ -8,6 +8,7 @@ Given('user is on login page', async function (this: MyWorld) {
   this.login=new Login(this.page)
   await this.login.openUrl("https://www.saucedemo.com/")
   console.log("hello")
+  console.log("new line added")
   
 
 });
